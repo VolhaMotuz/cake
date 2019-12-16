@@ -1,0 +1,31 @@
+@import url(navigation-mobile.css);
+@import url(navigation-tablet.css);
+@import url(navigation-desktop.css);
+
+.navigation-container {
+    padding-left: 40px;
+    flex-grow: 1;
+}
+
+.navigation__block {
+    font-family: 'circe_regular';
+    display: flex;
+}
+
+.navigation__item {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.navigation__item:not(:first-child) {
+    margin-left: 40px;
+}
+
+.navigation__link {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navigation__link:hover {
+    color: #F50049;
+}

@@ -1,0 +1,9 @@
+.phone {
+    font-family: 'circe_bold';
+    font-size: 12px;
+}
+
+.phone__link {
+    color: #000;
+    text-decoration: none;
+}

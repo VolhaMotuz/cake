@@ -1,0 +1,37 @@
+@import url(grid-mobile.css);
+@import url(grid-tablet.css);
+@import url(grid-desktop.css);
+
+body {
+    min-height: 100vh;
+    background: #FBEBEA;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+    padding: 0 15px;
+    border: 1px solid #000;    
+}
+
+.order-container {
+    position: relative;
+}
+
+.order-inner-container {
+    
+}
+
+.picture {
+    position: absolute;
+    background-image: url(../../../images/main-picture.png);
+    background-repeat: no-repeat;
+    width: 950px;
+    height: 950px;
+    right: 0px;
+    background-attachment: fixed, fixed;
+}
