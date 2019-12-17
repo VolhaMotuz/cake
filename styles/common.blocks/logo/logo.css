@@ -1,3 +1,23 @@
 .logo {
     font-family: 'playfair_displaybold';
+    color: #2d2829;
+
+}
+
+@media screen and (max-width: 750px) {
+    .logo {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1199px) {
+    .logo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        font-size: 23px;
+    }
 }

@@ -1,9 +1,15 @@
 .phone {
     font-family: 'circe_bold';
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .phone__link {
-    color: #000;
+    color: #2d2829;
     text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+    .phone {
+        display: none;
+    }
 }

@@ -40,3 +40,10 @@ main {
     right: 0px;
     background-attachment: fixed, fixed;
 }*/
+
+@media screen and (max-width: 750px) {
+    .navigation-container {
+        flex-grow: 0;
+    }
+}
+
