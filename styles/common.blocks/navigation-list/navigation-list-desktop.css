@@ -1,0 +1,9 @@
+@media screen and (min-width: 1200px) {
+    .navigation-list {
+        display: flex;
+    }
+
+    .navigation-list__item:not(:first-child) {
+        margin-left: 40px;
+    }
+}

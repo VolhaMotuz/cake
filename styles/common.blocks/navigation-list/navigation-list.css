@@ -1,0 +1,22 @@
+@import url(navigation-list-mobile.css);
+@import url(navigation-list-tablet.css);
+@import url(navigation-list-desktop.css);
+
+.navigation-list {
+    font-family: 'circe_regular';
+}
+
+.navigation-list__item {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.navigation-list__link {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navigation-list__link:hover {
+    color: #F50049;
+}

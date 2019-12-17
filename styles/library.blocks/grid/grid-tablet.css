@@ -1,4 +1,10 @@
-.container {
-    padding: 0 15px;
-    border: 1px solid #000;    
+@media screen and (max-width: 1199px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header-container{
+        padding: 10px 0;
+        background: #fff;
+    }
 }

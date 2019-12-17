@@ -1,0 +1,15 @@
+@media screen and (max-width: 1199px) {
+    .navigation-button {
+        width: 20px;
+        height: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .navigation-button__element {
+        height: 2px;
+        background: #000;
+    }
+}

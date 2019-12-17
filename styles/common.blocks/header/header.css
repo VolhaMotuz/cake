@@ -2,6 +2,7 @@
 @import url(header-tablet.css);
 @import url(header-desktop.css);
 
-.header-container {
-    
+.header-block {
+    display: flex;
+    justify-content: space-between;
 }

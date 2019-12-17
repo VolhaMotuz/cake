@@ -15,7 +15,11 @@ main {
 
 .container {
     padding: 0 15px;
-    border: 1px solid #000;    
+}
+
+.navigation-container {
+    padding-left: 40px;
+    flex-grow: 1;
 }
 
 .order-container {
@@ -26,12 +30,13 @@ main {
     
 }
 
-.picture {
+/*.picture {
     position: absolute;
     background-image: url(../../../images/main-picture.png);
     background-repeat: no-repeat;
     width: 950px;
     height: 950px;
+    background-position-x: right;
     right: 0px;
     background-attachment: fixed, fixed;
-}
+}*/
