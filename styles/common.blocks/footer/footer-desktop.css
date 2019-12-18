@@ -1,0 +1,5 @@
+@media screen and (min-width: 1200px) {
+    .footer-block {
+        align-items: baseline;
+    }
+}
