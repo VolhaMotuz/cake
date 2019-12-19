@@ -6,10 +6,6 @@
     font-family: 'circe_regular';
 }
 
-.navigation-list__item {
-    text-transform: uppercase;
-}
-
 .navigation-list__link {
     color: #2d2829;
     text-decoration: none;

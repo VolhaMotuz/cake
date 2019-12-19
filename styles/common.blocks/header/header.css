@@ -6,3 +6,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.header__navigation-list {
+    text-transform: uppercase;
+}

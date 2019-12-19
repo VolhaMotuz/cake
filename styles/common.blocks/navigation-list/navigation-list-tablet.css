@@ -1,5 +1,5 @@
 @media screen and (max-width: 1199px) {
-    .navigation-list {
+    .header__navigation-list {
         opacity: 0;
         left: 0;
         transform: translateY(0);
