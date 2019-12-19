@@ -17,7 +17,7 @@ main {
     padding: 0 15px;
 }
 
-.navigation-container {
+.header__navigation-container {
     padding-left: 40px;
     flex-grow: 1;
 }

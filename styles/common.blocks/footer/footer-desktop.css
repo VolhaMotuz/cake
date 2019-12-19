@@ -1,5 +1,23 @@
 @media screen and (min-width: 1200px) {
     .footer-block {
+        display: flex;
         align-items: baseline;
+        justify-content: space-between;
+    }
+
+    .footer__navigation-list .navigation-list__item {
+        font-size: 16px;
+    }
+
+    .footer__navigation-list .navigation-list__item:not(:first-child) {
+        margin-left: 50px;
+    }
+
+    .footer__logo {
+        font-size: 28px;
+    }
+
+    .footer__phone {
+        display: none;
     }
 }
