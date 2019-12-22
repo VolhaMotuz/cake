@@ -1,15 +1,21 @@
 .phone {
     font-family: 'circe_bold';
     font-size: 15px;
+    display: none;
 }
 
 .phone__link {
     color: #2d2829;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
-@media screen and (max-width: 750px) {
+.phone__link:hover {
+    color: #F50049;
+}
+
+@media screen and (min-width: 768px) {
     .phone {
-        display: none;
+        display: block;
     }
 }

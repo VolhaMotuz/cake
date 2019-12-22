@@ -1,0 +1,52 @@
+.social-networks {
+    padding-top: 30px;
+    display: flex;
+}
+
+.social-networks__item {
+    filter: invert(71%) sepia(0%) saturate(3431%) hue-rotate(20deg) brightness(108%) contrast(82%);
+    transition: all 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-networks__item:hover {
+    filter: invert(100%) sepia(6%) saturate(175%) hue-rotate(216deg) brightness(115%) contrast(100%);
+}
+
+.social-networks__item:not(:first-child) {
+    margin-left: 15px;
+}
+
+.social-networks__item_instagram {
+    width: 23px;
+    height: 23px;
+    background-image: url(instagram.svg);
+}
+
+.social-networks__item_vk {
+    width: 32px;
+    height: 23px;
+    background-image: url(vk.svg);
+}
+
+@media screen and (min-width: 768px) {
+    .social-networks {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .social-networks {
+        align-self: center;
+    }
+
+    .social-networks__item {
+        filter: invert(62%) sepia(0%) saturate(1262%) hue-rotate(317deg) brightness(93%) contrast(89%);
+    }
+
+    .social-networks__item:hover {
+        filter: invert(0%) sepia(0%) saturate(7488%) hue-rotate(342deg) brightness(93%) contrast(103%);
+    }
+}

@@ -1,7 +1,3 @@
-@import url(typography-mobile.css);
-@import url(typography-tablet.css);
-@import url(typography-desktop.css);
-
 @font-face {
     font-family: 'playfair_displaybold';
     src: url('fonts/playfairdisplay-bold.eot');

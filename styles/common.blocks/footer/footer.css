@@ -1,11 +1,106 @@
-@import url(footer-mobile.css);
-@import url(footer-tablet.css);
-@import url(footer-desktop.css);
-
 .footer-block {
+    display: block;
+}
 
+.footer__logo {
+    color: #fff;
+    font-size: 28px;
+    padding-bottom: 30px;
 }
 
 .footer__navigation-list {
-    
+    display: block;
+}
+
+.footer__navigation-list .navigation-list__item {
+    font-size: 14px;
+}
+
+.footer__navigation-list .navigation-list__item {
+    padding: 0 0 20px;
+}
+
+.footer__navigation-list .navigation-list__link {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer__navigation-list .navigation-list__link:hover {
+    color: #F50049;
+}
+
+.footer__phone {
+    display: block;
+    font-family: 'circe_regular';
+    font-size: 14px;
+}
+
+.footer__phone .phone__link {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer__phone .phone__link:hover {
+    color: #F50049;
+}
+
+@media screen and (min-width: 768px){
+    .footer-block {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+
+    .footer__logo {
+        padding: 0;
+    }
+
+    .footer__navigation-list {
+        display: flex;
+    }
+
+    .footer__navigation-list .navigation-list__item {
+        padding: 0;
+    }
+
+    .footer__phone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer__logo {
+        font-size: 18px;
+    }
+
+    .footer__navigation-list .navigation-list__item {
+        font-size: 12px;
+    }
+
+    .footer__navigation-list .navigation-list__item:not(:first-child) {
+        margin-left: 40px;
+    }
+
+    .footer-block__social-networks {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer__navigation-list .navigation-list__item {
+        font-size: 16px;
+    }
+
+    .footer__navigation-list .navigation-list__link {
+        color: #2d2829;
+    }
+
+    .footer__navigation-list .navigation-list__item:not(:first-child) {
+        margin-left: 50px;
+    }
+
+    .footer__logo {
+        color: #2d2829;
+        font-size: 28px;
+    }
 }

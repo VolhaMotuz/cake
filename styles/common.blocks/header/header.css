@@ -1,12 +1,15 @@
-@import url(header-mobile.css);
-@import url(header-tablet.css);
-@import url(header-desktop.css);
-
 .header-block {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__navigation-list {
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 1200px) {
+    .header-block {
+        align-items: baseline;
+    }
 }
