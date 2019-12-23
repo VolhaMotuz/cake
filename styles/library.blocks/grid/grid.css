@@ -13,6 +13,13 @@ main {
     padding: 0 15px;
 }
 
+.header-container{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header__navigation-container {
     padding-left: 40px;
 }
@@ -33,6 +40,10 @@ main {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .header-container{
+        height: 60px;
+    }
+
     .header__navigation-container {
         flex-grow: 1;
     }
@@ -50,6 +61,7 @@ main {
 
     .header-container{
         padding: 40px 0 20px;
+        height: auto;
     }
 
     .footer-container {

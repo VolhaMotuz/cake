@@ -49,6 +49,7 @@
 
     .navigation-list__item {
         font-size: 13px;
+        padding: 0;
     }
 
     .navigation-list__item:not(:first-child) {
