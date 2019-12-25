@@ -3,8 +3,10 @@
 @import url(social-networks/social-networks.css);
 @import url(navigation-button/navigation-button.css);
 @import url(navigation-list/navigation-list.css);
+@import url(page-title/page-title.css);
 
 @import url(header/header.css);
 @import url(product-item/product-item.css);
+@import url(order/order.css);
 @import url(copyrights/copyrights.css);
 @import url(footer/footer.css);

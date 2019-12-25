@@ -14,10 +14,13 @@
 
 .footer__navigation-list .navigation-list__item {
     font-size: 14px;
+    height: auto;
+    padding: 0 0 20px;
+    justify-content: flex-start;
 }
 
-.footer__navigation-list .navigation-list__item {
-    padding: 0 0 20px;
+.footer__navigation-list .navigation-list__item:not(:first-child) {
+    border: none;
 }
 
 .footer__navigation-list .navigation-list__link {
@@ -27,6 +30,7 @@
 
 .footer__navigation-list .navigation-list__link:hover {
     color: #F50049;
+    border: none;
 }
 
 .footer__phone {
