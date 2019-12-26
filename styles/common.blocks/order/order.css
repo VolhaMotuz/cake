@@ -1,9 +1,6 @@
-.order-block {
-
-}
-
 .order-block__page-title {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .order-block__list {
@@ -11,79 +8,68 @@
 }
 
 .order-block__list-item:before {
+    font-size: 35px;
+    padding-right: 15px;
+    line-height: 10px;
     counter-increment: customCounter;
     content:counter(customCounter);
     font-family: 'playfair_displaybold';
 }
 
 .order-block__list-item {
+    padding-top: 25px;
     display: flex;
 }
 
 .order-block__item-name {
+    font-size: 15px;
     font-family: 'circe_bold';
 }
 
 .order-block__item-description {
+    padding-top: 5px;
+    font-size: 14px;
     font-family: 'circe_regular';
 }
 
 @media screen and (min-width: 768px) {
     .order-block__page-title {
+        padding-bottom: 0;
         text-align: left;
     }
 
+    .order-block__list-item:before {
+        line-height: 20px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .order-block {
-
-    }
-
-    .order-block__list {
-
-    }
-
     .order-block__list-item {
-
+        padding-top: 30px;
     }
 
-    .order-block__item-name {
-
-    }
-
-    .order-block__item-description {
-
+    .order-block__list-item:before {
+        font-size: 36px;
+        padding-right: 20px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .order-block {
-
-    }
-
-    .order-block__list {
-
-    }
-
     .order-block__list-item {
         padding-top: 35px;
-
     }
 
     .order-block__list-item:before {
         font-size: 64px;
-        padding-right: 15px;
+        line-height: 20px;
     }
 
     .order-block__item-name {
         font-size: 21px;
-
     }
 
     .order-block__item-description {
         padding-top: 5px;
         font-size: 20px;
-
     }
 }
