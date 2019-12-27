@@ -1,0 +1,27 @@
+.contact-block__page-title {
+    padding-bottom: 15px;
+}
+
+.contact-block__page-subtitle {
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .contact-block__page-subtitle {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-block__page-title {
+        padding-bottom: 40px;
+    }
+
+    .contact-block__page-subtitle {
+        padding-bottom: 25px;
+    }
+}

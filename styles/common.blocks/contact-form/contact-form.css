@@ -1,0 +1,19 @@
+.contact-form__instruction {
+    font-family: 'circe_regular';
+    color: #000000;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .contact-form__instruction {
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-form__instruction {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+}

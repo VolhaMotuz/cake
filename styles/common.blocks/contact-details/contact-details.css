@@ -1,0 +1,46 @@
+.contact-details {
+    font-family: 'circe_regular';
+}
+
+.contact-details__item {
+    color: #000;
+}
+
+.contact-details__link {
+    color: #000;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.contact-details__link:hover {
+    color: #F50049;
+}
+
+.contact-details__social-networks {
+    
+}
+
+.contact-details__social-networks .social-networks__item {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-size: 50%;
+    filter: invert(10%) sepia(94%) saturate(6245%) hue-rotate(337deg) brightness(101%) contrast(102%);
+}
+
+
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-details__item {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,83 @@
+.form-group {
+    font-family: 'circe_regular';
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.form-group__input {
+    height: 50px;
+    padding: 0 10px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: #fff;
+    border-radius: 3px;
+    color: #000;
+}
+
+.form-group__input::placeholder {
+    color: #d3d3d3;
+}
+
+.form-group__textarea {
+    height: 120px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: #fff;
+    border-radius: 3px;
+    color: #000;
+    font-family: 'circe_regular';
+    resize: none;
+}
+
+.form-group__textarea::placeholder {
+    color: #d3d3d3;
+    font-size: 14px;
+    font-family: 'circe_regular';
+}
+
+.form-group__validation-error {
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .form-group {
+        
+    }
+
+    .form-group__input {
+
+    }
+
+    .form-group__textarea {
+    
+    }
+
+    .form-group__validation-error {
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .form-group {
+        
+    }
+
+    .form-group__input {
+
+    }
+
+    .form-group__textarea {
+    
+    }
+
+    .form-group__validation-error {
+
+    }
+}

@@ -4,9 +4,13 @@
 @import url(navigation-button/navigation-button.css);
 @import url(navigation-list/navigation-list.css);
 @import url(page-title/page-title.css);
+@import url(page-subtitle/page-subtitle.css);
 
 @import url(header/header.css);
 @import url(product-item/product-item.css);
 @import url(order/order.css);
+@import url(contact/contact.css);
+@import url(contact-details/contact-details.css);
+@import url(contact-form/contact-form.css);
 @import url(copyrights/copyrights.css);
 @import url(footer/footer.css);
