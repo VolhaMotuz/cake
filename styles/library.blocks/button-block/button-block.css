@@ -1,5 +1,23 @@
-.button {
+.button-block {
     
+}
+
+.button-block__button-element {
+    height: 50px;
+    padding: 0 45px;
+    font-size: 19px;
+    transition: all 0.3s;
+    font-family: 'circe_regular';
+    color: #fff;
+    background: #f50049;
+    border-radius: 45px;
+    border: none;
+}
+
+.button-block__button-element:hover {
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(255, 0, 68, 0.3);
+    -moz-box-shadow:    0px 5px 8px 0px rgba(255, 0, 68, 0.3);
+    box-shadow:         0px 5px 8px 0px rgba(255, 0, 68, 0.3);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {

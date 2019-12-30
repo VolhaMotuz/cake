@@ -13,10 +13,6 @@
     display: none;
 }
 
-.social-networks__item {
-
-}
-
 @media screen and (min-width: 768px) {
     .copyrights-block {
         display: flex;
