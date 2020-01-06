@@ -1,0 +1,45 @@
+.main-block {
+    z-index: 2;
+    position: relative;
+}
+
+.main-block__page-title {
+    font-size: 40px;
+    color: #2d2829;
+}
+
+.main-block__page-subtitle {
+    font-size: 22px;
+}
+
+.main-block__button-block {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .main-block__page-title {
+    
+    }
+    
+    .main-block__page-subtitle {
+    
+    }
+    
+    .main-block__button-block {
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-block__page-title {
+        
+    }
+
+    .main-block__page-subtitle {
+
+    }
+
+    .main-block__button-block {
+        
+    }
+}

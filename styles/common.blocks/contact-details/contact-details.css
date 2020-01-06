@@ -1,5 +1,6 @@
 .contact-details {
     font-family: 'circe_regular';
+    padding-top: 30px;
 }
 
 .contact-details__item {
@@ -56,7 +57,9 @@
 }
 
 @media screen and (min-width: 768px) {
-   
+    .contact-details {
+        padding-top: 30px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {

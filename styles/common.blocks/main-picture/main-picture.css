@@ -1,0 +1,23 @@
+.main-picture {
+    height: 50vw;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(main-picture.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    position: absolute;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .main-picture{
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-picture{
+        
+    }
+}

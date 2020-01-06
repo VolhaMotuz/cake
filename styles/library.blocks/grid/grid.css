@@ -34,6 +34,11 @@ main {
     background: #898989;
 }
 
+.main-container {
+    padding-top: 45vw;
+    position: relative;
+}
+
 .products-container {
     padding-bottom: 40px;
 }
@@ -109,6 +114,8 @@ main {
     .contact-container {
         padding-top: 50px;
         padding-bottom: 100px;
+        background-size: 70%;
+        background-position: 42vw bottom;
     }
 
     .contact-wrapper {
