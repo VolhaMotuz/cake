@@ -1,0 +1,79 @@
+.benefits-block {
+
+}
+
+.benefits-block__item {
+    display: flex;
+    align-items: center;
+}
+
+.benefits-block__item:not(:last-child) {
+    padding-bottom: 13px;
+}
+
+.benefits-block__icon {
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.benefits-block__icon_ingrediets {
+    width: 33px;
+    height: 33px;
+    background-image: url(icon-ingredients.png);
+}
+
+.benefits-block__icon_delivery {
+    width: 34px;
+    height: 32px;
+    background-image: url(icon-delivery.png);
+}
+
+.benefits-block__text {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #000;
+    font-family: 'circe_regular';
+}
+
+@media screen and (min-width: 768px) {
+    .benefits-block {
+        display: flex;
+    }
+
+    .benefits-block__item:not(:last-child) {
+        padding-bottom: 0;
+        padding-right: 60px;
+    }
+
+    .benefits-block__item_ingrediets {
+        width: 155px;
+    }
+
+    .benefits-block__item_delivery {
+        width: 250px;
+    }
+
+    .benefits-block__icon_ingrediets {
+        width: 55px;
+        height: 55px;
+    }
+
+    .benefits-block__icon_delivery {
+        width: 55px;
+        height: 54px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .benefits-block {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .benefits-block {
+        
+    }
+}
