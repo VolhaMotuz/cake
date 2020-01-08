@@ -1,27 +1,3 @@
-/*@font-face {
-    font-family: 'playfair_displaybold';
-    src: url('fonts/playfairdisplay-bold.eot');
-    src: url('fonts/playfairdisplay-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/playfairdisplay-bold.woff2') format('woff2'),
-         url('fonts/playfairdisplay-bold.woff') format('woff'),
-         url('fonts/playfairdisplay-bold.ttf') format('truetype'),
-         url('fonts/playfairdisplay-bold.svg#playfair_displaybold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'intro_script_rh2_base';
-    src: url('fonts/Intro-Script-R-H2-Base.eot');
-    src: url('fonts/Intro-Script-R-H2-Base.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Intro-Script-R-H2-Base.woff2') format('woff2'),
-         url('fonts/Intro-Script-R-H2-Base.woff') format('woff'),
-         url('fonts/Intro-Script-R-H2-Base.ttf') format('truetype'),
-         url('fonts/Intro-Script-R-H2-Base.svg#intro_script_rh2_base') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}*/
-
 @font-face {
     font-family: 'circe_regular';
     src: url('fonts/Circe-Regular.eot');

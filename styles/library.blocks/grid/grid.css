@@ -131,8 +131,8 @@ main {
         background-position: 42vw bottom;
     }
 
-    .contact-wrapper {
-
+    .main-container {
+        padding-top: 110px;
     }
 }
 
@@ -177,7 +177,7 @@ main {
         padding-bottom: 300px;
     }
 
-    .contact-wrapper {
-
+    .main-container {
+        padding-top: 145px;
     }
 }

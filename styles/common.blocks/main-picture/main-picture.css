@@ -12,12 +12,23 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .main-picture{
-
+        width: 450px;
+        height: 550px;
+        top: 15px;
+        left: auto;
+        right: 0;
+        background-position-x: left;
+        background-size: cover;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .main-picture{
-        
+        width: 820px;
+        height: 920px;
+        left: auto;
+        right: 0;
+        background-size: 65vw;
+        background-position: left;
     }
 }
