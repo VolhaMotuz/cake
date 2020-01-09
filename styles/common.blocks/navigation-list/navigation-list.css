@@ -5,11 +5,7 @@
     transition: all .3s ease;
     visibility: hidden;
     position: absolute;
-    z-index: 2;
-}
-
-.navigation-list {
-    font-family: 'circe_regular';
+    z-index: 3;
 }
 
 .navigation-list_active {

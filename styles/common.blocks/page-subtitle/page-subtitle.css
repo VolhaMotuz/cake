@@ -4,12 +4,6 @@
     color: #32313d;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    .page-subtitle {
-
-    }
-}
-
 @media screen and (min-width: 1200px) {
     .page-subtitle {
         font-size: 35px;

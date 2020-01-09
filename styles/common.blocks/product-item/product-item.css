@@ -6,7 +6,6 @@
     height: 37vw;
     box-sizing: border-box;
     background: #fff;
-    font-family: 'circe_regular';
     position: relative;
     display: flex;
     flex-direction: column;
@@ -119,10 +118,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .product-list {
-        
-    }
-
     .product-list__item {
         margin-bottom: 2.6vw;
         height: 24.1vw;
