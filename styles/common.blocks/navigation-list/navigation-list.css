@@ -19,10 +19,6 @@
 
 .navigation-list__item {
     font-size: 12px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .navigation-list__item:not(:first-child) {
@@ -31,8 +27,13 @@
 
 .navigation-list__link {
     color: #2d2829;
-    text-decoration: none;
+    height: 40px;
+    width: 100%;
     transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .navigation-list__link:hover {
@@ -66,5 +67,9 @@
     .navigation-list__item:not(:first-child) {
         margin-left: 40px;
         border: none;
+    }
+
+    .navigation-list__link {
+        height: auto;
     }
 }

@@ -7,6 +7,13 @@
     cursor: pointer;
 }
 
+.navigation-button::before, 
+.navigation-button::after  {
+    content: '';
+    height: 2px;
+    background: #000;
+}
+
 .navigation-button__element {
     height: 2px;
     background: #000;
