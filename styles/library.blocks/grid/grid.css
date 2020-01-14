@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    min-width: 320px;
     background: #FBEBEA;
     display: flex;
     flex-direction: column;
@@ -158,8 +159,8 @@ main {
     }
 
     .products-container {
-        padding-top: 260px;
-        padding-bottom: 65px;
+        margin-top: 260px;
+        margin-bottom: 65px;
     }
 
     .order-container {

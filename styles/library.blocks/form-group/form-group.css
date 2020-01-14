@@ -28,12 +28,14 @@
 .form-group__text_textarea {
     padding: 10px;
     height: 120px;
+    font-family: 'circe_regular';
     resize: none;
 }
 
 .form-group__text_textarea::placeholder {
     color: #d3d3d3;
     font-size: 14px;
+    font-family: 'circe_regular';
 }
 
 .form-group__validation-error {
