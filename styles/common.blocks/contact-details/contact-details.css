@@ -15,7 +15,7 @@
 }
 
 .contact-details__link:hover {
-    color: #F50049;
+    color: var(--link-hover-color);
 }
 
 .contact-details__social-networks .social-networks__item_box {

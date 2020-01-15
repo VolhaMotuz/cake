@@ -84,7 +84,7 @@
     }
 
     .product-list__link:hover {
-        color: #f50049;
+        color: var(--link-hover-color);
     }
 
     .product-list__item:not(:first-child) .product-list__link-text {
@@ -227,7 +227,7 @@
     }
 
     .product-list__link:hover {
-        color: #f50049;
+        color: var(--link-hover-color);
     }
 
     .product-list__link-arrow {

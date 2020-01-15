@@ -29,7 +29,7 @@
 }
 
 .footer__navigation-list .navigation-list__link:hover {
-    color: #F50049;
+    color: var(--link-hover-color);
     border: none;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .footer__phone .phone__link:hover {
-    color: #F50049;
+    color: var(--link-hover-color);
 }
 
 @media screen and (min-width: 768px){

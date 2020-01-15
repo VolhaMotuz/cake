@@ -4,7 +4,7 @@
     font-size: 19px;
     transition: all 0.3s;
     color: #fff;
-    background: #f50049;
+    background: var(--link-hover-color);
     border-radius: 45px;
     border: none;
 }

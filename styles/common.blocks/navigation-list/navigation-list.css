@@ -37,7 +37,7 @@
 }
 
 .navigation-list__link:hover {
-    color: #F50049;
+    color: var(--link-hover-color);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
