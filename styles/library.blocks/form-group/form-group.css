@@ -19,10 +19,12 @@
 
 .form-group__text_input {
     height: 50px;
+    font-family: 'circe_regular';
 }
 
 .form-group__text_input::placeholder {
     color: #d3d3d3;
+    font-family: 'circe_regular';
 }
 
 .form-group__text_textarea {
