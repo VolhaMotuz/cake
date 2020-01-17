@@ -1,5 +1,5 @@
 .contact-form__instruction {
-    color: #000000;
+    color: var(--black-color);
     font-size: 14px;
     padding-bottom: 10px;
 }

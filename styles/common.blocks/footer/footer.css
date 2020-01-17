@@ -3,7 +3,7 @@
 }
 
 .footer__logo {
-    color: #fff;
+    color: var(--white-color);
     font-size: 28px;
     margin-bottom: 30px;
 }
@@ -24,7 +24,7 @@
 }
 
 .footer__navigation-list__link {
-    color: #fff;
+    color: var(--white-color);
     transition: color 0.3s;
     height: auto;
     display: inline;
@@ -41,7 +41,7 @@
 }
 
 .footer__phone__link {
-    color: #fff;
+    color: var(--white-color);
     transition: color 0.3s;
 }
 
@@ -101,11 +101,11 @@
     }
 
     .footer__navigation-list__link {
-        color: #2d2829;
+        color: var(--text-color);
     }
 
     .footer__logo {
-        color: #2d2829;
+        color: var(--text-color);
         font-size: 28px;
     }
 }

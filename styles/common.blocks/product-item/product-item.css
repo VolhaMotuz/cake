@@ -5,7 +5,7 @@
 .product-list__item {
     height: 37vw;
     box-sizing: border-box;
-    background: #fff;
+    background: var(--white-color);
     position: relative;
     display: flex;
     flex-direction: column;

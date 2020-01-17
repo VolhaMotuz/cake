@@ -5,7 +5,7 @@
 
 .copyrights-block__title {
     font-size: 12px;
-    color: #adadad;
+    color: var(--light-gray-text-color);
 }
 
 .copyrights-block__social-networks {

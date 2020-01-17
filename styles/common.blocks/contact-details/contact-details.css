@@ -1,6 +1,6 @@
 .contact-details__item {
     font-size: 14px;
-    color: #000;
+    color: var(--black-color);
 }
 
 .contact-details__item:not(:last-child) {
@@ -8,7 +8,7 @@
 }
 
 .contact-details__link {
-    color: #000;
+    color: var(--black-color);
     transition: all .3s ease;
     cursor: pointer;
 }
@@ -22,7 +22,7 @@
 }
 
 .contact-details__social-networks__item_box {
-    background-color: #ffffff;
+    background-color: var(--white-color);
     border-radius: 50%;
     width: 63px;
     height: 63px;

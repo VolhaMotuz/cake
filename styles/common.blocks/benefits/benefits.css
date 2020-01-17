@@ -28,7 +28,7 @@
 .benefits-block__text {
     padding-left: 10px;
     font-size: 14px;
-    color: #000;
+    color: var(--black-color);
 }
 
 @media screen and (min-width: 768px) {

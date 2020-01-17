@@ -11,12 +11,12 @@
 .navigation-button::after  {
     content: '';
     height: 2px;
-    background: #000;
+    background: var(--black-color);
 }
 
 .navigation-button__element {
     height: 2px;
-    background: #000;
+    background: var(--black-color);
 }
 
 @media screen and (min-width: 1200px) {

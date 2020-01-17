@@ -5,7 +5,7 @@
 }
 
 .phone__link {
-    color: #2d2829;
+    color: var(--text-color);
     text-decoration: none;
     transition: color 0.3s;
 }

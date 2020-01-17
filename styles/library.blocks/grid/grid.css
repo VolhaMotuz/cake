@@ -49,7 +49,7 @@ main {
 .order-container {
     padding: 35px 20px 145px 20px;
     background-color: #d62934;
-    color: #fff;
+    color: var(--white-color);
     background-image: url(order-hands.jpg);
     background-repeat: no-repeat;
     background-size: 200px;
@@ -67,7 +67,7 @@ main {
 
 @media screen and (max-width: 1199px) {
     .header-container{
-        background: #fff;
+        background: var(--white-color);
     }
 }
 
