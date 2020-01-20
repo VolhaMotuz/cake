@@ -32,6 +32,10 @@ main {
     background: #898989;
 }
 
+.footer__navigation-container {
+    margin-top: 30px;
+}
+
 .copyrights-container {
     background: #898989;
 }
@@ -94,6 +98,10 @@ main {
 
     .hidden-xs {
         display: inline-block;
+    }
+
+    .footer__navigation-container {
+        margin: 0;
     }
 }
 
@@ -164,8 +172,10 @@ main {
     }
 
     .order-container {
+        min-height: 703px;
         padding-top: 120px;
         padding-bottom: 180px;
+        box-sizing: border-box;
         background-size: auto;
         background-position: left bottom;
     }
