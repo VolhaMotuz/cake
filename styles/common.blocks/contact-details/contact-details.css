@@ -17,6 +17,14 @@
     color: var(--link-hover-color);
 }
 
+.contact-details__link:focus {
+    color: var(--link-focus-color);
+}
+
+.contact-details__link:active {
+    color: var(--link-active-color);
+}
+
 .contact-details__social-networks {
     margin-top: 15px;
 }

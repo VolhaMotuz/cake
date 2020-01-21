@@ -1,5 +1,7 @@
 :root {
   --link-hover-color: #F50049;
+  --link-active-color: #ad0235;
+  --link-focus-color: #5f001c;
   --text-color: #2d2829;
   --black-color: #000000;
   --white-color: #ffffff;

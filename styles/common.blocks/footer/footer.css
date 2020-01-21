@@ -34,6 +34,14 @@
     border: none;
 }
 
+.footer__navigation-list__link:focus {
+    color: var(--link-focus-color);
+}
+
+.footer__navigation-list__link:active {
+    color: var(--link-active-color);
+}
+
 .footer__phone {
     display: block;
     font-size: 14px;
@@ -46,6 +54,14 @@
 
 .footer__phone__link:hover {
     color: var(--link-hover-color);
+}
+
+.footer__phone__link:focus {
+    color: var(--link-focus-color);
+}
+
+.footer__phone__link:active {
+    color: var(--link-active-color);
 }
 
 @media screen and (min-width: 768px){

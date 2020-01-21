@@ -53,6 +53,9 @@
         background: none;
         border-radius: 0;
     }
+    .form-group__text:focus {
+        border-color: var(--link-hover-color);
+    }
 
     .form-group__text_textarea {
         height: 50px;
