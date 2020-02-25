@@ -58,7 +58,20 @@ main {
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: center 110%;
+    position: relative;
 }
+
+/*.order-background {
+    height: 580px;
+    width: 820px;
+    left: 0;
+    bottom: 0;
+    background-image: url(order-hands.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    background-position: bottom left;
+}*/
 
 .contact-container {
     padding-top: 40px;
@@ -177,7 +190,7 @@ main {
         padding-top: 120px;
         padding-bottom: 180px;
         box-sizing: border-box;
-        background-size: auto;
+        background-size: 50% auto;
         background-position: left bottom;
     }
 

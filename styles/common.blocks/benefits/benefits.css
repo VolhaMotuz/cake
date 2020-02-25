@@ -38,11 +38,11 @@
 
     .benefits-block__item:not(:last-child) {
         padding-bottom: 0;
-        padding-right: 60px;
+        padding-right: 30px;
     }
 
     .benefits-block__item_ingrediets {
-        width: 155px;
+        width: 185px;
     }
 
     .benefits-block__item_delivery {
