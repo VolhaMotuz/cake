@@ -181,8 +181,9 @@ main {
     }
 
     .products-container {
-        margin-top: 260px;
+        margin-top: 210px;
         margin-bottom: 65px;
+        position: relative;
     }
 
     .order-container {
@@ -190,12 +191,12 @@ main {
         padding-top: 120px;
         padding-bottom: 180px;
         box-sizing: border-box;
-        background-size: 50% auto;
+        background-size: auto 580px;
         background-position: left bottom;
     }
 
     .order-block-wrapper {
-        width: 40%;
+        width: 30vw;
     }
 
     .contact-container {
